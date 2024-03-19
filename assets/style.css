@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.container
+{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 1px 1px 25px rgb(184, 181, 181);
+    position: relative;
+    margin: 10% 0 0 40%;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.logo
+{
+    position: absolute;
+    cursor: pointer;
+    left: 100px;
+    top: 45px;
+    width: 100px;
+    height: 100px;
+    border: 1px none white;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(218, 216, 216);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.logo i
+{
+    color: rgb(6, 161, 208);
+    font-size: 75px;
+    position: absolute;
+    left: 12px;
+    top: 14px;
+}
+
+h1
+{
+    color: rgb(6, 161, 208);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 154px;
+    left: 90px;
+}
+.email
+{
+    position: absolute;
+}
+.email label
+{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1;
+    font-size: 16px;
+    line-height: 1px;
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.email input
+{
+    width: 220px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px none rgb(255, 255, 255);
+    border-radius: 35px;
+    box-shadow: inset 3px 3px 3px rgb(199, 194, 194);
+    position: absolute;
+    top: 240px;
+    left: 40px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+.password
+{
+    position: absolute;
+}
+.password label
+{display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1;
+    font-size: 16px;
+    line-height: 1px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    cursor: pointer;
+}
+
+
+.password input
+{
+    width: 220px;
+    height: 40px;
+    position: absolute;
+    padding-left: 15px;
+    top: 320px;
+    box-shadow: inset 3px 3px 3px rgb(199, 194, 194);
+    left: 40px;
+    line-height: 1px;
+    border: 1px none white;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+    .login 
+    {position: absolute;
+        display: block;
+        padding-left: 40px;
+        bottom: 30px;
+    }
+    
+    .login button
+    {
+        border: 1px none white;
+        opacity: 1;
+        cursor: pointer;
+        background-color: rgb(6, 161, 208);
+        color: black;
+        width: 220px;
+        height: 40px;
+        font-weight: 800;
+        border-radius: 35px;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
+} 
+.login button:hover
+{
+    opacity: 0.6;
+}
